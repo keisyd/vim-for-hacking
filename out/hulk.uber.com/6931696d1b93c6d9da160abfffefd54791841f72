@@ -1,0 +1,19 @@
+https://hulk.uber.com/
+
+> GET / HTTP/1.1
+> Host: hulk.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Fhulk.uber.com%2F&state=1sJLc0uNTk194d8sPwoSBJGx6qTaCUG5hcm0ZknY-Ho%3D
+< Set-Cookie: csid=deleted; Path=/; Domain=hulk.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=hulk.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380508240.iip5dJInMwW2nkJe2WswYodULuk23CU4Khf+ID/ra2I=; Path=/; Domain=hulk.uber.com; Expires=Sun, 27 Mar 2022 11:28:28 GMT; HttpOnly; Secure
+< Set-Cookie: csid=deleted; Path=/; Domain=hulk.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=hulk.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380508240.iip5dJInMwW2nkJe2WswYodULuk23CU4Khf+ID/ra2I=; Path=/; Domain=hulk.uber.com; Expires=Sun, 27 Mar 2022 11:28:28 GMT; HttpOnly; Secure
+< Vary: Accept-Encoding
+< Date: Sun, 27 Mar 2022 11:13:28 GMT
+< Server: ufe
+< Content-Length: 0
+

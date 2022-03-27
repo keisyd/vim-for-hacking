@@ -1,0 +1,26 @@
+https://plus.uber.com/
+
+> GET / HTTP/1.1
+> Host: plus.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Uber-Edge: e4-dca8:w:59
+< X-Envoy-Upstream-Service-Time: 0
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: max-age=0
+< Date: Sun, 27 Mar 2022 11:13:34 GMT
+< Content-Type: text/html
+< X-Content-Type-Options: nosniff
+< Server: ufe
+< Vary: Accept-Encoding
+< Strict-Transport-Security: max-age=604800
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

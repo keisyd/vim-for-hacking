@@ -1,0 +1,32 @@
+https://explore.uber.com/
+
+> GET / HTTP/1.1
+> Host: explore.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Fexplore.uber.com%2F&state=idkpPH8llJBqseorX8da9btiGy6mY3hKGx8_tETw9e4%3D
+< Vary: Accept-Encoding
+< Server: ufe
+< Via: 1.1 google
+< Date: Sun, 27 Mar 2022 11:13:40 GMT
+< Set-Cookie: csid=deleted; Path=/; Domain=explore.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=explore.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380520461.ozDr9/avbSzvmC7HLlm5NuToqcJ8kUPVGYnZnXouDZw=; Path=/; Domain=explore.uber.com; Expires=Sun, 27 Mar 2022 11:28:40 GMT; HttpOnly; Secure
+< X-Uber-Edge: e4-dca8:w:22
+< Strict-Transport-Security: max-age=604800
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: max-age=0
+< Content-Type: text/html
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< X-Content-Type-Options: nosniff
+< X-Envoy-Upstream-Service-Time: 129
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

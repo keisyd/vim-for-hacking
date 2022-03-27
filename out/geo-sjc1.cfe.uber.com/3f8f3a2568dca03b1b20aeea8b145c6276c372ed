@@ -1,0 +1,22 @@
+https://geo-sjc1.cfe.uber.com/
+
+> GET / HTTP/1.1
+> Host: geo-sjc1.cfe.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 405 Method Not Allowed
+< Via: 1.1 google
+< Content-Type: application/json
+< Content-Length: 36
+< Rpc-Service: rtapi-group1-gateway
+< X-Uber-App: rtapi-group1-gateway
+< X-Content-Type-Options: nosniff
+< X-Envoy-Upstream-Service-Time: 258
+< Date: Sun, 27 Mar 2022 11:13:39 GMT
+< X-Uber-Edge: e4-dca11:w:68
+< Strict-Transport-Security: max-age=604800
+< X-Xss-Protection: 1; mode=block
+< Server: ufe
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+{"message":"405 Method Not Allowed"}

@@ -1,0 +1,23 @@
+https://geo-frontends-all-dca1.uber.com/
+
+> GET / HTTP/1.1
+> Host: geo-frontends-all-dca1.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 307 Temporary Redirect
+< X-Uber-Edge: e4-dca8:w:50
+< Cache-Control: no-store, max-age=0
+< X-Envoy-Upstream-Service-Time: 0
+< Content-Type: text/html
+< Location: https://www.uber.com/
+< Vary: Accept-Encoding
+< Server: ufe
+< Date: Sun, 27 Mar 2022 11:13:23 GMT
+
+<html>
+<head><title>307 Temporary Redirect</title></head>
+<body>
+<center><h1>307 Temporary Redirect</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

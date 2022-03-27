@@ -1,0 +1,32 @@
+https://p3.uber.com/
+
+> GET / HTTP/1.1
+> Host: p3.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: ufe
+< X-Envoy-Upstream-Service-Time: 129
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Date: Sun, 27 Mar 2022 11:13:23 GMT
+< Content-Type: text/html
+< Set-Cookie: csid=deleted; Path=/; Domain=p3.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=p3.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380503344.V+Vofg5m45e4uJuPb+pUqqC6OgIr6Y/FQQ+a1RgGmOU=; Path=/; Domain=p3.uber.com; Expires=Sun, 27 Mar 2022 11:28:23 GMT; HttpOnly; Secure
+< X-Uber-Edge: e4-dca8:w:23
+< Cache-Control: max-age=0
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Via: 1.1 google
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Fp3.uber.com%2F&state=l531J91z15q74m9f89uL4FrWvLWeoD95yhrlt6s5eOg%3D
+< Strict-Transport-Security: max-age=604800
+< X-Content-Type-Options: nosniff
+< Vary: Accept-Encoding
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

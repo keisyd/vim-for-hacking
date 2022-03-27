@@ -1,0 +1,20 @@
+https://sbx.usuppliers.uber.com/
+
+> GET / HTTP/1.1
+> Host: sbx.usuppliers.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: 
+< Location: https://sbx.usuppliers.uber.com:443/OA_HTML/AppsLocalLogin.jsp
+< Content-Length: 273
+< Content-Type: text/html; charset=iso-8859-1
+< Date: Sun, 27 Mar 2022 11:13:44 GMT
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>302 Found</title>
+</head><body>
+<h1>Found</h1>
+<p>The requested resource has been temporarily moved <a href="https://sbx.usuppliers.uber.com:443/OA_HTML/AppsLocalLogin.jsp">here</a>.</p>
+</body></html>

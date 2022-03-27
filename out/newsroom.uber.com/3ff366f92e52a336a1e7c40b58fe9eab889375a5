@@ -1,0 +1,21 @@
+https://newsroom.uber.com/
+
+> GET / HTTP/1.1
+> Host: newsroom.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Safe-Redirect-Id: 234664
+< X-Redirect-By: WordPress
+< X-Cache-Group: normal
+< Date: Sun, 27 Mar 2022 11:13:29 GMT
+< X-Cacheable: non200
+< Content-Length: 0
+< X-Powered-By: WP Engine
+< X-Cache: HIT: 2
+< Content-Type: text/html; charset=UTF-8
+< X-Safe-Redirect-Manager: true
+< Location: https://uber.com/newsroom
+< Cache-Control: max-age=600, must-revalidate
+< Server: nginx
+

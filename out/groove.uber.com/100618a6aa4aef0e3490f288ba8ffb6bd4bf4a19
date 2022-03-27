@@ -1,0 +1,27 @@
+https://groove.uber.com/
+
+> GET / HTTP/1.1
+> Host: groove.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Runtime: 0.002567
+< Date: Sun, 27 Mar 2022 11:13:26 GMT
+< Content-Length: 91
+< Referrer-Policy: strict-origin-when-cross-origin
+< Vary: Origin
+< X-Content-Type-Options: nosniff
+< Via: 1.1 spaces-router (4eb074ceed91)
+< X-Request-Id: 5c39a46d-9c8a-0ebe-e769-e0a0367d1110
+< X-Download-Options: noopen
+< X-Frame-Options: SAMEORIGIN
+< Location: https://engine.groove.co/
+< Permissions-Policy: accelerometer=(), gyroscope=(), magnetometer=(), payment=(), usb=()"
+< Strict-Transport-Security: max-age=0; includeSubDomains
+< X-Permitted-Cross-Domain-Policies: none
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: no-cache
+< Content-Security-Policy-Report-Only: default-src 'self' https: https://assets.grooveapp.com/; font-src 'self' https: data:; img-src 'self' https: data:; object-src 'none'; script-src 'self' https: 'sha256-rnCv9YsRc1bPlcjF00cdflQoGKAh1VBbXcY4IFrDaFY=' 'sha256-ikUayDGcXFig9AxzcG35foXLtbwEsFwiT0gFrJ1erL8=' 'sha256-s0761h4ra0f3WSBdCyYY/WCsxbzcluVUNo382Ih+MbM=' 'sha256-u1yGwJFi9M3J1F4zp3irCfQ3Rz3GwOtJvLi977huBS4='; style-src 'self' https: https://maxcdn.bootstrapcdn.com 'sha256-Go04rLD+KX2EmFTIQELVhuU9gVIzmh+CF1xznFMryB4='; connect-src 'self' https://api-js.mixpanel.com https://api.segment.io https://api-iam.intercom.io https://cdn.segment.com wss://notifications.grooveapp.com wss://nexus-websocket-a.intercom.io wss://nexus-websocket-b.intercom.io; report-uri https://o84998.ingest.sentry.io/api/1190271/security/?sentry_key=c13ce42a7e244ce3b1e1493e1a678cd5&sentry_environment=production
+< Content-Type: text/html; charset=utf-8
+
+<html><body>You are being <a href="https://engine.groove.co/">redirected</a>.</body></html>

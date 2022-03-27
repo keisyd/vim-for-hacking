@@ -1,0 +1,25 @@
+https://drivers.uber.com/
+
+> GET / HTTP/1.1
+> Host: drivers.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Content-Type-Options: nosniff
+< X-Envoy-Upstream-Service-Time: 129
+< Server: ufe
+< Via: 1.1 google
+< Content-Length: 25
+< X-Powered-By: Express
+< Vary: Accept
+< X-Uber-Edge: e4-dca1:w:11
+< Content-Type: text/plain; charset=utf-8
+< Location: /p3
+< Cache-Control: max-age=0
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Strict-Transport-Security: max-age=604800
+< X-Xss-Protection: 1; mode=block
+< Date: Sun, 27 Mar 2022 11:13:33 GMT
+< X-Frame-Options: SAMEORIGIN
+
+Found. Redirecting to /p3

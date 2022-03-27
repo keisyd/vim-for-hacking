@@ -1,0 +1,29 @@
+https://a.uber.com/
+
+> GET / HTTP/1.1
+> Host: a.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: max-age=0
+< Server: ufe
+< Via: 1.1 google
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Location: https://vouchers.uber.com/c/
+< X-Frame-Options: SAMEORIGIN
+< X-Envoy-Upstream-Service-Time: 129
+< Vary: Accept-Encoding
+< Strict-Transport-Security: max-age=604800
+< X-Uber-Edge: e4-dca11:w:7
+< X-Content-Type-Options: nosniff
+< Date: Sun, 27 Mar 2022 11:13:23 GMT
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

@@ -1,0 +1,16 @@
+http://groove.uber.com/
+
+> GET / HTTP/1.1
+> Host: groove.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 9
+< Content-Type: text/html
+< Permissions-Policy: accelerometer=(), gyroscope=(), magnetometer=(), payment=(), usb=()"
+< Vary: Origin
+< Via: 1.1 spaces-router (4eb074ceed91)
+< X-Content-Type-Options: nosniff
+< Date: Sun, 27 Mar 2022 11:13:25 GMT
+
+Not Found

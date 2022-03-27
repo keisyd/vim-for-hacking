@@ -1,0 +1,20 @@
+https://dclb.uber.com/
+
+> GET / HTTP/1.1
+> Host: dclb.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 405 Method Not Allowed
+< Content-Type: application/json
+< Content-Length: 36
+< Rpc-Service: rtapi-group1-gateway
+< X-Uber-App: rtapi-group1-gateway
+< X-Content-Type-Options: nosniff
+< Server: ufe
+< Date: Sun, 27 Mar 2022 11:13:39 GMT
+< X-Uber-Edge: e4-phx5:p:101
+< Strict-Transport-Security: max-age=604800
+< X-Xss-Protection: 1; mode=block
+< X-Envoy-Upstream-Service-Time: 2
+
+{"message":"405 Method Not Allowed"}

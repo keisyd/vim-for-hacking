@@ -1,0 +1,28 @@
+https://email.uber.com/
+
+> GET / HTTP/1.1
+> Host: email.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Uber-Edge: e4-dca11:w:78
+< Cache-Control: max-age=0
+< Vary: Accept-Encoding
+< X-Frame-Options: SAMEORIGIN
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Date: Sun, 27 Mar 2022 11:13:27 GMT
+< Strict-Transport-Security: max-age=604800
+< X-Content-Type-Options: nosniff
+< Via: 1.1 google
+< Content-Type: text/html
+< X-Xss-Protection: 1; mode=block
+< X-Envoy-Upstream-Service-Time: 138
+< Server: ufe
+
+<html>
+<head><title>404 Not Found</title></head>
+<body bgcolor="white">
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>

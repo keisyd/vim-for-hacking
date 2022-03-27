@@ -1,0 +1,13 @@
+http://m-staging.uber.com/
+
+> GET / HTTP/1.1
+> Host: m-staging.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 27 Mar 2022 11:13:40 GMT
+< Server: ufe
+< Content-Length: 0
+< Location: https://m-staging.uber.com/
+< Vary: Accept-Encoding
+

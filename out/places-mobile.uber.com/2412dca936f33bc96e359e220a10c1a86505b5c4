@@ -1,0 +1,32 @@
+https://places-mobile.uber.com/
+
+> GET / HTTP/1.1
+> Host: places-mobile.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Sun, 27 Mar 2022 11:13:40 GMT
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Fplaces-mobile.uber.com%2F&state=XNJl3GlEsZ3y7PeLE9wADwVolHwp7igoA7AmayJRam8%3D
+< X-Uber-Edge: e4-dca8:w:27
+< Strict-Transport-Security: max-age=604800
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< X-Envoy-Upstream-Service-Time: 124
+< Via: 1.1 google
+< Content-Type: text/html
+< Cache-Control: max-age=0
+< Set-Cookie: csid=deleted; Path=/; Domain=places-mobile.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=places-mobile.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380520388.rZzSE0BEsDNrGmipOUxAAeBTnyHSvFU9bJmu2+sUniE=; Path=/; Domain=places-mobile.uber.com; Expires=Sun, 27 Mar 2022 11:28:40 GMT; HttpOnly; Secure
+< X-Frame-Options: SAMEORIGIN
+< Vary: Accept-Encoding
+< Server: ufe
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

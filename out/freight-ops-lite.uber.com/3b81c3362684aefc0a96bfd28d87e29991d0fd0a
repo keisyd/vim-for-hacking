@@ -1,0 +1,22 @@
+https://freight-ops-lite.uber.com/
+
+> GET / HTTP/1.1
+> Host: freight-ops-lite.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Frame-Options: SAMEORIGIN
+< X-Xss-Protection: 1; mode=block
+< X-Envoy-Upstream-Service-Time: 5
+< Content-Length: 9
+< Strict-Transport-Security: max-age=604800
+< Cache-Control: max-age=0
+< Date: Sun, 27 Mar 2022 11:13:26 GMT
+< Content-Type: text/plain; charset=utf-8
+< X-Content-Type-Options: nosniff
+< Server: ufe
+< Set-Cookie: _ua={"session_id":"7ee5a482-4947-4a92-bd58-08c46e7daa91","session_time_ms":1648379606397}; path=/; secure
+< Set-Cookie: jwt-session=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDgzNzk2MDYsImV4cCI6MTY0ODQ2NjAwNn0.MyO39T1OJWOTcAIQ_R9Yd8h2GBG7X1z-puY1ThLRxU0; path=/; expires=Mon, 28 Mar 2022 11:13:26 GMT; secure; httponly
+< X-Uber-Edge: e4-dca8:w:29
+
+Not Found

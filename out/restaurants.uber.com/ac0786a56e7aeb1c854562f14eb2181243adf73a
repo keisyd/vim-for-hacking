@@ -1,0 +1,23 @@
+http://restaurants.uber.com/
+
+> GET / HTTP/1.1
+> Host: restaurants.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Location: https://restaurants.uber.com/
+< Cf-Cache-Status: DYNAMIC
+< Set-Cookie: __cf_bm=51uj7Nq25vCyNhDeATc0EnVUGsJs9Yrw7dG_ApA2L_w-1648379612-0-Ae2XBl6/VW6nmDOKzocOC4aMG2XUwb8t9Ju5dTha2uKAHAi6reGSLQjyEM63Jzc/7kYU+SUaWOCT9BQ4PzwtE1I=; path=/; expires=Sun, 27-Mar-22 11:43:32 GMT; domain=.restaurants.uber.com; HttpOnly; SameSite=None
+< Cf-Ray: 6f27b2844b0c6037-GRU
+< Date: Sun, 27 Mar 2022 11:13:32 GMT
+< Content-Type: text/html; charset=iso-8859-1
+< Vary: Accept-Encoding
+< Server: cloudflare
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://restaurants.uber.com/">here</a>.</p>
+</body></html>

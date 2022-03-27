@@ -1,0 +1,30 @@
+https://biz-beta.uber.com/
+
+> GET / HTTP/1.1
+> Host: biz-beta.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Uber-Edge: e4-dca1:w:10
+< Cache-Control: max-age=0
+< Date: Sun, 27 Mar 2022 11:13:39 GMT
+< Strict-Transport-Security: max-age=604800
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html
+< Set-Cookie: csid=deleted; Path=/; Domain=biz-beta.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=biz-beta.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380519274.ntqwvmwDXa00XkwUHTBgTccRfzjbn735E2kpz383Dag=; Path=/; Domain=biz-beta.uber.com; Expires=Sun, 27 Mar 2022 11:28:39 GMT; HttpOnly; Secure
+< X-Frame-Options: SAMEORIGIN
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca1&next_url=https%3A%2F%2Fbiz-beta.uber.com%2F&state=-VciqEzgH3NrdbvsoahQofaSU_ygIwVTvJ5LJD3SfdA%3D
+< X-Content-Type-Options: nosniff
+< X-Envoy-Upstream-Service-Time: 1
+< Vary: Accept-Encoding
+< Server: ufe
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

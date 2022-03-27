@@ -1,0 +1,30 @@
+https://business.uber.com/
+
+> GET / HTTP/1.1
+> Host: business.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Envoy-Upstream-Service-Time: 475
+< Date: Sun, 27 Mar 2022 11:13:34 GMT
+< Content-Type: text/html
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: max-age=0,no-store
+< Vary: Accept-Encoding
+< Strict-Transport-Security: max-age=604800
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Server: ufe
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Fbusiness.uber.com%2F&state=mn6T-XqjaNRERL3Et77qLQa-EuiqgufVO5rKRKnPDFY%3D
+< Set-Cookie: csid=deleted; Path=/; Domain=business.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=business.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380514073.xuKbNR2f5QWXhWD6ZDYJk8ftWD3UgNT05N2hv4p9vz4=; Path=/; Domain=business.uber.com; Expires=Sun, 27 Mar 2022 11:28:34 GMT; HttpOnly; Secure
+< X-Uber-Edge: e4-dca4:w:46
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

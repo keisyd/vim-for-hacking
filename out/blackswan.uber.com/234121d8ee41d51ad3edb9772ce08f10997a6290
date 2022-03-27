@@ -1,0 +1,19 @@
+https://blackswan.uber.com/
+
+> GET / HTTP/1.1
+> Host: blackswan.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Envoy-Upstream-Service-Time: 0
+< Server: ufe
+< Date: Sun, 27 Mar 2022 11:13:29 GMT
+< Content-Type: text/plain
+< Content-Length: 0
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: max-age=0
+< X-Uber-Edge: e4-dca11:w:89
+< Strict-Transport-Security: max-age=604800
+< X-Xss-Protection: 1; mode=block
+

@@ -1,0 +1,49 @@
+https://lab.usuppliers.uber.com/
+
+> GET / HTTP/1.1
+> Host: lab.usuppliers.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Last-Modified: Fri, 18 Mar 2022 11:08:46 GMT
+< Accept-Ranges: bytes
+< X-Frame-Options: SAMEORIGIN
+< Date: Sun, 27 Mar 2022 11:13:32 GMT
+< Server: 
+< Etag: "4dd-5da7c2b9c0b80"
+< Content-Length: 1245
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html
+< Content-Language: en
+
+<!-- $Header: index.html 120.6 2011/04/15 09:27:28 sbandla ship $ -->
+<!--
+  ###############################################################
+  
+  Do not edit settings in this file manually. They are managed
+  automatically and will be overwritten when AutoConfig runs.
+  For more information about AutoConfig, refer to the Oracle
+  E-Business Suite Setup Guide.
+  
+  ###############################################################
+
+  Template <AD_TOP>/admin/template/index.html
+  To customize this page, please refer to Oracle MetaLink Note 387859.1.
+-->
+<!-- dbdrv: none -->
+
+<!-- appdet.html - this is needed to make the page pass
+                   the Rapid Install post install check -->
+<html>
+<HEAD>
+<TITLE>E-Business Suite Home Page Redirect</TITLE>
+<META http-equiv=REFRESH content="1; URL=https://lab.usuppliers.uber.com/OA_HTML/AppsLocalLogin.jsp">
+</HEAD>
+<body>
+<DIV ID="content">
+The E-Business Home Page is located at <a href="https://lab.usuppliers.uber.com/OA_HTML/AppsLocalLogin.jsp">https://lab.usuppliers.uber.com/OA_HTML/AppsLocalLogin.jsp</a><br>
+If your browser doesn't automatically redirect to its new location, click
+<A HREF="https://lab.usuppliers.uber.com/OA_HTML/AppsLocalLogin.jsp">here</A>.
+</DIV>
+</body>
+</html>

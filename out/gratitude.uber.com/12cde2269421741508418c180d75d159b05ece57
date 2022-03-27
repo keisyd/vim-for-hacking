@@ -1,0 +1,32 @@
+https://gratitude.uber.com/
+
+> GET / HTTP/1.1
+> Host: gratitude.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html
+< Set-Cookie: state=JF0333C63bI0EH.1648380504954.Ey9hVa0/Zk6zJxbdHDxORWxSGEISMjprSq27uY+jUDg=; Path=/; Domain=gratitude.uber.com; Expires=Sun, 27 Mar 2022 11:28:24 GMT; HttpOnly; Secure
+< Set-Cookie: csid=deleted; Path=/; Domain=gratitude.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=gratitude.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< X-Uber-Edge: e4-dca8:w:0
+< X-Envoy-Upstream-Service-Time: 129
+< Strict-Transport-Security: max-age=604800
+< X-Frame-Options: SAMEORIGIN
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Fgratitude.uber.com%2F&state=oBcCaIAucWcStLV695Df0dVnxLaWn8-bVY90xBtXtYA%3D
+< Vary: Accept-Encoding
+< Server: ufe
+< Date: Sun, 27 Mar 2022 11:13:24 GMT
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: max-age=0
+< Via: 1.1 google
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

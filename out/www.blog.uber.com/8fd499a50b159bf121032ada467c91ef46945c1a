@@ -1,0 +1,18 @@
+https://www.blog.uber.com/
+
+> GET / HTTP/1.1
+> Host: www.blog.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Server: nginx
+< Content-Type: text/html; charset=UTF-8
+< Content-Length: 0
+< X-Powered-By: WP Engine
+< Cache-Control: max-age=600, must-revalidate
+< Date: Sun, 27 Mar 2022 11:13:27 GMT
+< Location: https://newsroom.uber.com/
+< X-Cacheable: non200
+< X-Cache: HIT: 1
+< X-Cache-Group: normal
+

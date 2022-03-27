@@ -1,0 +1,22 @@
+https://cn-dca1.cfe.uber.com/
+
+> GET / HTTP/1.1
+> Host: cn-dca1.cfe.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 405 Method Not Allowed
+< Server: ufe
+< Date: Sun, 27 Mar 2022 11:13:25 GMT
+< Rpc-Service: rtapi-group1-gateway
+< X-Envoy-Upstream-Service-Time: 127
+< X-Uber-Edge: e4-dca8:p:3
+< Strict-Transport-Security: max-age=604800
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Via: 1.1 google
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Content-Type: application/json
+< Content-Length: 36
+< X-Uber-App: rtapi-group1-gateway
+
+{"message":"405 Method Not Allowed"}

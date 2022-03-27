@@ -1,0 +1,18 @@
+http://t.uber.com/
+
+> GET / HTTP/1.1
+> Host: t.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Robots-Tag: none
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+< Location: https://uber.onelogin.com/trust/saml2/http-post/sso/8dfc571e-4f3e-4c34-ba31-02ee8b5c122c
+< Date: Sun, 27 Mar 2022 11:13:33 GMT
+< Content-Type: text/html; charset=utf-8
+< X-Ratelimit-Remaining: 49
+< X-Ratelimit-Reset: 21
+< Pragma: no-cache
+< Content-Length: 0
+< X-Ratelimit-Limit: 50
+

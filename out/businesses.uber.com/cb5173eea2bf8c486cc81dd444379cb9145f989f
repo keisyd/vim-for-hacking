@@ -1,0 +1,23 @@
+http://businesses.uber.com/
+
+> GET / HTTP/1.1
+> Host: businesses.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: cloudflare
+< Content-Type: text/html; charset=iso-8859-1
+< Cf-Cache-Status: DYNAMIC
+< Vary: Accept-Encoding
+< Set-Cookie: __cf_bm=pYRtMqdEbBYzvtjE_hPOg_.L9GA72IZ07kAeqe9kccs-1648379611-0-AQb3FV5558LCsnv/+hfSVeludEMaYSexXwa4W2QquNEGSyctt/EheFISlBxHTtnzapSzLLsn60kM3obtF/xU9JA=; path=/; expires=Sun, 27-Mar-22 11:43:31 GMT; domain=.businesses.uber.com; HttpOnly; SameSite=None
+< Cf-Ray: 6f27b27bc8b151d2-GRU
+< Date: Sun, 27 Mar 2022 11:13:31 GMT
+< Location: https://businesses.uber.com/
+
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html><head>
+<title>301 Moved Permanently</title>
+</head><body>
+<h1>Moved Permanently</h1>
+<p>The document has moved <a href="https://businesses.uber.com/">here</a>.</p>
+</body></html>

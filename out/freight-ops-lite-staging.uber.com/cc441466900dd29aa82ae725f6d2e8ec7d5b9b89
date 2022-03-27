@@ -1,0 +1,22 @@
+https://freight-ops-lite-staging.uber.com/
+
+> GET / HTTP/1.1
+> Host: freight-ops-lite-staging.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Type: text/plain; charset=utf-8
+< Content-Length: 9
+< X-Xss-Protection: 1; mode=block
+< X-Uber-Edge: e4-dca1:w:51
+< Server: ufe
+< Date: Sun, 27 Mar 2022 11:13:41 GMT
+< X-Frame-Options: SAMEORIGIN
+< Strict-Transport-Security: max-age=604800
+< Cache-Control: max-age=0
+< X-Content-Type-Options: nosniff
+< X-Envoy-Upstream-Service-Time: 6
+< Set-Cookie: _ua={"session_id":"6151829c-8839-45ca-9f12-b7c9c5c660d9","session_time_ms":1648379621627}; path=/; secure
+< Set-Cookie: jwt-session=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDgzNzk2MjEsImV4cCI6MTY0ODQ2NjAyMX0.Zs6Ino7P3CjFvR3Fy0CEZ0N7kqF9TV-ZS4r2tTGeigM; path=/; expires=Mon, 28 Mar 2022 11:13:41 GMT; secure; httponly
+
+Not Found

@@ -1,0 +1,56 @@
+https://publicsafety.uber.com/
+
+> GET / HTTP/1.1
+> Host: publicsafety.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Vary: Accept-Encoding
+< Cache-Control: public,must-revalidate,max-age=0,s-maxage=600
+< Last-Modified: Sun, 27 Mar 2022 11:04:46 GMT
+< X-Frame-Options: SAMEORIGIN
+< Content-Type: text/html;charset=UTF-8
+< Strict-Transport-Security: max-age=63072004; includeSubDomains
+< Age: 538
+< P3p: CP="CUR OTR STA"
+< Expires: Sun, 27 Mar 2022 11:04:46 GMT
+< X-Xss-Protection: 0
+< Date: Sun, 27 Mar 2022 11:04:46 GMT
+< Content-Security-Policy: upgrade-insecure-requests
+< Content-Security-Policy: frame-ancestors 'self'
+< X-Powered-By: Salesforce.com ApexPages
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html><head><script src="/static/111213/js/perf/stub.js" type="text/javascript"></script><script src="/faces/a4j/g/3_3_3.Finalorg.ajax4jsf.javascript.AjaxScript?rel=1648243105000" type="text/javascript"></script><script src="/jslibrary/1633356814236/ui-sfdc-javascript-impl/SfdcCore.js" type="text/javascript"></script><script src="/static/111213/js/picklist4.js" type="text/javascript"></script><script src="/jslibrary/1635874030236/sfdc/VFState.js" type="text/javascript"></script><script>(function(UITheme) {
+    UITheme.getUITheme = function() { 
+        return UserContext.uiTheme;
+    };
+}(window.UITheme = window.UITheme || {}));</script></head><body>
+	
+    <style type="text/css">
+    	body { background: #f8f8f8 !important;}
+		html { background-color: #f8f8f8; }
+		header { background: #000000;
+				 font: #FFFFFF;}
+    </style>
+    <script type="text/javascript">
+     window.addEventListener('load', function() {
+            let lang = window.navigator.languages ? window.navigator.languages[0] : null;
+            lang = lang || window.navigator.language || window.navigator.browserLanguage || window.navigator.userLanguage;
+        
+            let language = lang;
+            if (language.indexOf('-') !== -1)
+                language = language.replace('-','_');
+            
+            redirect(language);
+        });
+    </script>
+<form id="j_id0:j_id2" name="j_id0:j_id2" method="post" action="/BrowserRedirectPage" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id0:j_id2" value="j_id0:j_id2" />
+<script id="j_id0:j_id2:j_id3" type="text/javascript">redirect=function(language){A4J.AJAX.Submit('j_id0:j_id2',null,{'similarityGroupingId':'j_id0:j_id2:j_id3','parameters':{'j_id0:j_id2:j_id3':'j_id0:j_id2:j_id3','language':(typeof language!='undefined'&&language!=null)?language:''} } )};
+</script><span id="j_id0:j_id2:out"></span><div id="j_id0:j_id2:j_id7"></div>
+</form><span id="ajax-view-state-page-container" style="display: none"><span id="ajax-view-state" style="display: none"><input type="hidden"  id="com.salesforce.visualforce.ViewState" name="com.salesforce.visualforce.ViewState" value="i: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" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateVersion" name="com.salesforce.visualforce.ViewStateVersion" value="202203252118250879" /><input type="hidden"  id="com.salesforce.visualforce.ViewStateMAC" name="com.salesforce.visualforce.ViewStateMAC" value="AGV5SnViMjVqWlNJNkltSnViSE5hY2xSbWVVbG9TRE5XWWpJMmRFaFZPRTB6TURKT1N6TTBWamx0VlhWeGNGWjZTR2hZV1VWY2RUQXdNMlFpTENKMGVYQWlPaUpLVjFRaUxDSmhiR2NpT2lKSVV6STFOaUlzSW10cFpDSTZJbnRjSW5SY0lqcGNJakF3UkRNMk1EQXdNREF3YWpkNE0xd2lMRndpZGx3aU9sd2lNREpITUdVd01EQXdNREJVWlVoc1hDSXNYQ0poWENJNlhDSjJabk5wWjI1cGJtZHJaWGxjSWl4Y0luVmNJanBjSWpBd05UTTJNREF3TURBeWIyNXhaVndpZlNJc0ltTnlhWFFpT2xzaWFXRjBJbDBzSW1saGRDSTZNVFkwT0RNM09UQTROakUwTVN3aVpYaHdJam93ZlE9PS4uV2Z2Q2RoQWpCaFA1Y3czdDM1RGdWOFhxN3owaDlKSGlJRV90R1hQbDVSWT0=" /></span></span><script type="text/javascript">Sfdc.onReady(function(){
+	SfdcApp && SfdcApp.Visualforce && SfdcApp.Visualforce.VSManager && SfdcApp.Visualforce.VSManager.vfPrepareForms(["j_id0:j_id2"]);
+
+});</script></body></html>

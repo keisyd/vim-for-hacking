@@ -1,0 +1,19 @@
+https://riders.uber.com/
+
+> GET / HTTP/1.1
+> Host: riders.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Vary: Accept-Encoding
+< Date: Sun, 27 Mar 2022 11:13:32 GMT
+< Server: ufe
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Friders.uber.com%2F&state=v8oBwy9hCqOiJpcpO-ieRsgRA13fBOrljuN-WyoEeBY%3D
+< Set-Cookie: csid=deleted; Path=/; Domain=riders.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=riders.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380512962.0WbwyG5RUbogJCuJ4r04w+eYYCyCLnCWFi8YmGocStA=; Path=/; Domain=riders.uber.com; Expires=Sun, 27 Mar 2022 11:28:32 GMT; HttpOnly; Secure
+< Set-Cookie: csid=deleted; Path=/; Domain=riders.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=riders.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380512962.0WbwyG5RUbogJCuJ4r04w+eYYCyCLnCWFi8YmGocStA=; Path=/; Domain=riders.uber.com; Expires=Sun, 27 Mar 2022 11:28:32 GMT; HttpOnly; Secure
+< Content-Length: 0
+

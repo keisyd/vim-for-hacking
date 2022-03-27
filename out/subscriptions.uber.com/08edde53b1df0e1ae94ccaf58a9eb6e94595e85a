@@ -1,0 +1,14 @@
+http://subscriptions.uber.com/
+
+> GET / HTTP/1.1
+> Host: subscriptions.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Server: ufe
+< Content-Length: 0
+< Via: 1.1 google
+< Location: https://subscriptions.uber.com/
+< Vary: Accept-Encoding
+< Date: Sun, 27 Mar 2022 11:13:31 GMT
+

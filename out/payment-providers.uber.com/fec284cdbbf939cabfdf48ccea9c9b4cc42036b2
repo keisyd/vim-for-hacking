@@ -1,0 +1,20 @@
+https://payment-providers.uber.com/
+
+> GET / HTTP/1.1
+> Host: payment-providers.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Content-Length: 19
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: max-age=0
+< X-Uber-Edge: e4-dca11:w:66
+< Strict-Transport-Security: max-age=604800
+< X-Frame-Options: SAMEORIGIN
+< X-Envoy-Upstream-Service-Time: 0
+< Server: ufe
+< Date: Sun, 27 Mar 2022 11:13:33 GMT
+< Content-Type: text/plain; charset=utf-8
+< X-Content-Type-Options: nosniff
+
+404 page not found

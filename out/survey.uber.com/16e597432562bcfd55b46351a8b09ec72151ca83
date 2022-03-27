@@ -1,0 +1,32 @@
+https://survey.uber.com/
+
+> GET / HTTP/1.1
+> Host: survey.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Set-Cookie: csid=deleted; Path=/; Domain=survey.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=survey.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380516332.oGpa7iuvpiWCQrOEBEcgmDtKSUA/blnKzM9iKRPhMFA=; Path=/; Domain=survey.uber.com; Expires=Sun, 27 Mar 2022 11:28:36 GMT; HttpOnly; Secure
+< Strict-Transport-Security: max-age=604800
+< Vary: Accept-Encoding
+< Server: ufe
+< Via: 1.1 google
+< Content-Type: text/html
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Fsurvey.uber.com%2F&state=f7ZjlUES8VxbF3NOmvG5yY4oaltHLD6sqpmopbp1uYU%3D
+< X-Frame-Options: SAMEORIGIN
+< X-Envoy-Upstream-Service-Time: 123
+< X-Content-Type-Options: nosniff
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Date: Sun, 27 Mar 2022 11:13:36 GMT
+< X-Uber-Edge: e4-dca8:w:70
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: max-age=0
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

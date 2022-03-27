@@ -1,0 +1,18 @@
+http://static.uber.com/
+
+> GET / HTTP/1.1
+> Host: static.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 403 Forbidden
+< Date: Sun, 27 Mar 2022 11:13:23 GMT
+< Server: AmazonS3
+< X-Cache: Error from cloudfront
+< Via: 1.1 a43a4e3a015929f71d6fc6fa15418702.cloudfront.net (CloudFront)
+< X-Amz-Cf-Id: zye1qCiDVuu3k1mDZRcqAfDYm4ibzy4pUOSzxKuo0m3ql51Z7W2faA==
+< Content-Type: application/xml
+< X-Amz-Bucket-Region: us-east-1
+< X-Amz-Cf-Pop: GRU1-C1
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>AccessDenied</Code><Message>Access Denied</Message><RequestId>XSRDTNMHC90RZKCN</RequestId><HostId>PcBpUCou7WIEZIysy+tQGBAOt2sbDY6fijlEaMkmd/gR47LnD6vIs29YVE9rv0Fv/MMXEfcjnyw=</HostId></Error>

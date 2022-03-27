@@ -1,0 +1,18 @@
+https://blogcdn.uber.com/
+
+> GET / HTTP/1.1
+> Host: blogcdn.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Expires: Sun, 27 Mar 2022 11:13:28 GMT
+< Date: Sun, 27 Mar 2022 11:13:29 GMT
+< Content-Type: text/html
+< Content-Length: 46
+< Last-Modified: Mon, 28 Nov 2016 01:02:48 GMT
+< Etag: "583b8238-2e"
+< Server: NetDNA-cache/2.2
+< Cache-Control: no-cache
+< Accept-Ranges: bytes
+
+You are hitting the StackPath ATL1 datacenter.

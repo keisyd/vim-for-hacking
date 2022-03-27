@@ -1,0 +1,17 @@
+http://elevate.uber.com/
+
+> GET / HTTP/1.1
+> Host: elevate.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< X-Cloud-Trace-Context: a6a44641b688b050ae456bf9c7f599a1
+< Etag: "Z5_j0w"
+< Content-Type: text/html
+< Cache-Control: public, max-age=600
+< Age: 0
+< Server: Google Frontend
+< Content-Length: 0
+< Date: Sun, 27 Mar 2022 11:13:40 GMT
+< Expires: Sun, 27 Mar 2022 11:23:40 GMT
+

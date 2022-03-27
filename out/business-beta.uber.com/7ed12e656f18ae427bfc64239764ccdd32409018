@@ -1,0 +1,30 @@
+https://business-beta.uber.com/
+
+> GET / HTTP/1.1
+> Host: business-beta.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Strict-Transport-Security: max-age=604800
+< Set-Cookie: fsid=deleted; Path=/; Domain=business-beta.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380519184.cO0ejlFaPKnZa/e4/apbmwDUnljUNBLCV0axaidYgPw=; Path=/; Domain=business-beta.uber.com; Expires=Sun, 27 Mar 2022 11:28:39 GMT; HttpOnly; Secure
+< Set-Cookie: csid=deleted; Path=/; Domain=business-beta.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< X-Uber-Edge: e4-dca11:w:84
+< X-Content-Type-Options: nosniff
+< Cache-Control: max-age=0,no-store
+< X-Envoy-Upstream-Service-Time: 1
+< Date: Sun, 27 Mar 2022 11:13:39 GMT
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Fbusiness-beta.uber.com%2F&state=SNRpLzk29q_w6jsXeAO7sbyNca-fqXj9P0xBua3CNME%3D
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Vary: Accept-Encoding
+< Server: ufe
+< Content-Type: text/html
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

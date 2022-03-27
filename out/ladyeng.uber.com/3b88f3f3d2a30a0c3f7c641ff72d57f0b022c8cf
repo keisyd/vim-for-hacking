@@ -1,0 +1,13 @@
+http://ladyeng.uber.com/
+
+> GET / HTTP/1.1
+> Host: ladyeng.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Date: Sun, 27 Mar 2022 11:13:24 GMT
+< Server: ufe
+< Content-Length: 0
+< Location: https://ladyeng.uber.com/
+< Vary: Accept-Encoding
+

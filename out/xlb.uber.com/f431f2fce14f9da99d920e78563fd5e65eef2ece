@@ -1,0 +1,32 @@
+https://xlb.uber.com/
+
+> GET / HTTP/1.1
+> Host: xlb.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Date: Sun, 27 Mar 2022 11:13:24 GMT
+< Strict-Transport-Security: max-age=604800
+< X-Frame-Options: SAMEORIGIN
+< Vary: Accept-Encoding
+< Via: 1.1 google
+< Content-Type: text/html
+< X-Uber-Edge: e4-dca11:w:32
+< X-Content-Type-Options: nosniff
+< Server: ufe
+< Set-Cookie: csid=deleted; Path=/; Domain=xlb.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=xlb.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380504165.kNulS9T5LfL7wxuXktBlBaMet9l02g71OIidy8gxgfA=; Path=/; Domain=xlb.uber.com; Expires=Sun, 27 Mar 2022 11:28:24 GMT; HttpOnly; Secure
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Fxlb.uber.com%2F&state=LY03Q5BPITsQvAQ_QAvaYmabM-HYdY_nUIhApouf-tc%3D
+< X-Xss-Protection: 1; mode=block
+< Cache-Control: max-age=0
+< X-Envoy-Upstream-Service-Time: 122
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

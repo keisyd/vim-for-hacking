@@ -1,0 +1,17 @@
+http://contact.uber.com/
+
+> GET / HTTP/1.1
+> Host: contact.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+< Content-Security-Policy: upgrade-insecure-requests
+< Location: https://contact.uber.com/
+< Date: Sun, 27 Mar 2022 11:13:42 GMT
+< Set-Cookie: CookieConsentPolicy=0:1; path=/; expires=Mon, 27-Mar-2023 11:13:42 GMT; Max-Age=31536000
+< Set-Cookie: LSKey-c$CookieConsentPolicy=0:1; path=/; expires=Mon, 27-Mar-2023 11:13:42 GMT; Max-Age=31536000
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+

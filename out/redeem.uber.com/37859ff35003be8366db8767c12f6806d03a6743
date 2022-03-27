@@ -1,0 +1,22 @@
+https://redeem.uber.com/
+
+> GET / HTTP/1.1
+> Host: redeem.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< X-Frame-Options: SAMEORIGIN
+< X-Uber-Edge: e4-dca8:w:29
+< Strict-Transport-Security: max-age=604800
+< Cache-Control: max-age=0
+< Content-Length: 9
+< Set-Cookie: _ua={"session_id":"02c01efa-2478-4285-9371-92770c5bfed4","session_time_ms":1648379608715}; path=/; secure
+< Set-Cookie: jwt-session=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDgzNzk2MDgsImV4cCI6MTY0ODQ2NjAwOH0.yowZFDTNsh5gn3gkaSVGY6EZq57GW7376zeE5cSGxS8; path=/; expires=Mon, 28 Mar 2022 11:13:28 GMT; secure; httponly
+< X-Xss-Protection: 1; mode=block
+< X-Content-Type-Options: nosniff
+< Date: Sun, 27 Mar 2022 11:13:28 GMT
+< Content-Type: text/plain; charset=utf-8
+< X-Envoy-Upstream-Service-Time: 6
+< Server: ufe
+
+Not Found

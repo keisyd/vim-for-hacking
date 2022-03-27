@@ -1,0 +1,18 @@
+https://tdottest1.uber.com/
+
+> GET / HTTP/1.1
+> Host: tdottest1.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Robots-Tag: none
+< Pragma: no-cache
+< X-Ratelimit-Reset: 32
+< Content-Type: text/html; charset=utf-8
+< Location: https://app.short.io/users/dashboard/206086/links
+< Content-Length: 0
+< Date: Sun, 27 Mar 2022 11:13:29 GMT
+< X-Ratelimit-Limit: 50
+< X-Ratelimit-Remaining: 49
+< Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+

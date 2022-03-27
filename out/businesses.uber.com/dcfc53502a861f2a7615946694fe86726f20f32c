@@ -1,0 +1,20 @@
+https://businesses.uber.com/
+
+> GET / HTTP/1.1
+> Host: businesses.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Vary: Accept-Encoding
+< Set-Cookie: BIGipServerab39web-nginx-app_https=!s8m85QG3SR1SkZraQbCLRqc3TBcuiv0fdK01O40sXBdIDZxGf1bmSOI/oPpBSZz03N8DhpcLVdvL4B4=;Path=/;Version=1;Secure;Httponly
+< Set-Cookie: __cf_bm=ZiM_FsC2KhqU3QinoeigCfn_a60IklZEBxO0hqKivLE-1648379612-0-AXQjbwPJGTdnFtlqalc+iBFTsagyJNY5zVSVsLTrd9dpF7PBanBk/rn6O3ORXkUx9hZHd1tZnh7dN4BwD6JxDkA=; path=/; expires=Sun, 27-Mar-22 11:43:32 GMT; domain=.businesses.uber.com; HttpOnly; Secure; SameSite=None
+< Cf-Cache-Status: DYNAMIC
+< Server: cloudflare
+< Date: Sun, 27 Mar 2022 11:13:32 GMT
+< Content-Type: text/html; charset=UTF-8
+< X-Content-Type-Options: nosniff
+< Cf-Ray: 6f27b280ca7151ff-GRU
+< Location: http://uber.com
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+
+<html><head><meta http-equiv="refresh" content="0;url=http://uber.com"/></head></html>

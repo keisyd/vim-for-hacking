@@ -1,0 +1,20 @@
+https://cn.uber.com/
+
+> GET / HTTP/1.1
+> Host: cn.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 405 Method Not Allowed
+< Content-Length: 36
+< X-Uber-Edge: e4-dca1:p:2
+< Strict-Transport-Security: max-age=604800
+< X-Xss-Protection: 1; mode=block
+< X-Envoy-Upstream-Service-Time: 2
+< Server: ufe
+< Date: Sun, 27 Mar 2022 11:13:29 GMT
+< Content-Type: application/json
+< X-Content-Type-Options: nosniff
+< Rpc-Service: rtapi-group1-gateway
+< X-Uber-App: rtapi-group1-gateway
+
+{"message":"405 Method Not Allowed"}

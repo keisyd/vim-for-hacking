@@ -1,0 +1,70 @@
+https://restaurants.uber.com/
+
+> GET / HTTP/1.1
+> Host: restaurants.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Set-Cookie: BIGipServerab19web-nginx-app_https=!ugu/+BJYCiJW0qraQbCLRqc3TBcuivVufN+OXTybbVaTsBdmj/DJrg+iaFaKV4+mqOQHuF/Xo2gBRJw=;Path=/;Version=1;Secure;Httponly
+< Set-Cookie: __cf_bm=v3WgcXCn43sa1vZEX8W4nSKpIDwTXBPhrOWE2i7lXv4-1648379614-0-AdevyYtYfn9qkvPLSq+K6AtG6mAh4jjNXmVcdJjcyBLQPi/KkhUK4Q7SLLVJe+FO7h/P03HWgfNBHeQmmu+ZMVM=; path=/; expires=Sun, 27-Mar-22 11:43:34 GMT; domain=.restaurants.uber.com; HttpOnly; Secure; SameSite=None
+< Cf-Cache-Status: DYNAMIC
+< Expect-Ct: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+< Date: Sun, 27 Mar 2022 11:13:34 GMT
+< Content-Type: text/html; charset=utf-8
+< X-Content-Type-Options: nosniff
+< Cf-Ray: 6f27b2897dcc4b2f-GRU
+< Status: 404 Not Found
+< Vary: Accept-Encoding
+< Server: cloudflare
+
+<!DOCTYPE HTML>
+<head>
+<title>404 - Page not found</title>
+  <style>
+    body {
+      background-color: #4b4b8f;
+      font-family: 'Open Sans';
+      font-size:20px;
+      color: white;
+    }
+
+    div.message {
+      position: relative;
+      top: 150px;
+      margin: auto;
+      width: 600px;
+      text-shadow: 1px 2px #333;
+    }
+
+    div.message h1 {
+      text-align: center;
+    }
+    div.message img {
+      float:left;
+      vertical-align:text-top;
+      margin: 80px 0px;
+    }
+
+    div.details {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      font-size: 18px;
+      text-shadow: 1px 2px #333;
+    }
+  </style>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+  <div class="message">
+    <h1>Quoth the Raven - 404</h1>
+    <img src="https://app.marketo.com/images/icons256/bird.png" alt="Quoth the Raven: 404"/>
+    Once upon a midnight dreary,<br> while I pondered weak and weary,<br>Over many a quaint and curious<br> volume of forgotten lore,<br><br>While I nodded, nearly napping,<br> suddenly there came a tapping,<br>As of some one gently rapping,<br> rapping at my chamber door.<br><br>`'Tis some visitor,' I muttered, <br> `tapping at my chamber door -<br>Only this, and nothing more.'<br><br>    Page not found: 404  </div>
+  <div class="details">
+    Error 404 |     <script language="JavaScript">
+      document.write( new Date().toLocaleString());
+    </script>
+  </div>
+</body>
+</html>

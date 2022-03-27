@@ -1,0 +1,15 @@
+http://base.uber.com/
+
+> GET / HTTP/1.1
+> Host: base.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 308 Permanent Redirect
+< Content-Type: text/plain
+< Location: https://base.uber.com/
+< Refresh: 0;url=https://base.uber.com/
+< Server: Vercel
+< X-Vercel-Id: gru1::dmg59-1648379604735-dd6a873a6df9
+< Date: Sun, 27 Mar 2022 11:13:24 GMT
+
+Redirecting to https://base.uber.com/ (308)

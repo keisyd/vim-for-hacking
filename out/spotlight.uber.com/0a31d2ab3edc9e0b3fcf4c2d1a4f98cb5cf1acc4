@@ -1,0 +1,32 @@
+https://spotlight.uber.com/
+
+> GET / HTTP/1.1
+> Host: spotlight.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Uber-Edge: e4-dca4:w:53
+< Vary: Accept-Encoding
+< Server: ufe
+< Content-Type: text/html
+< Set-Cookie: csid=deleted; Path=/; Domain=spotlight.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=spotlight.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380514939.SLCSQI9QsNdcCuftcnmpXHQG76T48NhQIwgI3j3LY+4=; Path=/; Domain=spotlight.uber.com; Expires=Sun, 27 Mar 2022 11:28:34 GMT; HttpOnly; Secure
+< Strict-Transport-Security: max-age=604800
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< X-Envoy-Upstream-Service-Time: 125
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Cache-Control: max-age=0
+< Date: Sun, 27 Mar 2022 11:13:34 GMT
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Fspotlight.uber.com%2F&state=a3mtP2hJbm8RFq1pInvrmFE34FRm46kUIimmE42NEiY%3D
+< X-Frame-Options: SAMEORIGIN
+< Via: 1.1 google
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

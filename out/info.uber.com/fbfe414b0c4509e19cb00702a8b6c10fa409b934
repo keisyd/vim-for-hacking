@@ -1,0 +1,22 @@
+http://info.uber.com/
+
+> GET / HTTP/1.1
+> Host: info.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Server: Apache
+< Cache-Control: private, no-cache, no-store, max-age=0
+< X-Content-Type-Options: nosniff
+< Content-Type: text/html
+< Date: Sun, 27 Mar 2022 11:13:29 GMT
+< Vary: Accept-Encoding
+< Set-Cookie: BIGipServerab_mailtracking_80=!GJzkoLwY1NhBDz3aQbCLRqc3TBcuiihPa3rchGppdT6bvktfQ52iCSPQcCaCtxBhH83ALYh9JIYkIqc=; path=/; Httponly
+
+<!DOCTYPE html>
+<html>
+<body>
+<h1>404 Not Found</h1>
+<p>The redirect url is empty</p>
+</body>
+</html>

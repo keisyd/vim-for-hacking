@@ -1,0 +1,21 @@
+http://mail.uber.com/
+
+> GET / HTTP/1.1
+> Host: mail.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Content-Length: 230
+< X-Xss-Protection: 0
+< X-Frame-Options: SAMEORIGIN
+< Location: http://mail.google.com/a/uber.com
+< Date: Sun, 27 Mar 2022 11:13:27 GMT
+< Content-Type: text/html; charset=UTF-8
+< Server: ghs
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://mail.google.com/a/uber.com">here</A>.
+</BODY></HTML>

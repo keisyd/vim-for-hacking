@@ -1,0 +1,19 @@
+https://guest.uber.com/
+
+> GET / HTTP/1.1
+> Host: guest.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Date: Sun, 27 Mar 2022 11:13:35 GMT
+< Content-Length: 0
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Fguest.uber.com%2F&state=oWHcT3NsZSDbR__tC9QZF1PkJWlBzon1BAL5zMT33Ew%3D
+< Set-Cookie: state=JF0333C63bI0EH.1648380516197.y9p82sQSAzwFdWtbJpSv/XWuIBV0ELOMI/5O7rJhNtE=; Path=/; Domain=guest.uber.com; Expires=Sun, 27 Mar 2022 11:28:36 GMT; HttpOnly; Secure
+< Set-Cookie: csid=deleted; Path=/; Domain=guest.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=guest.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380516197.y9p82sQSAzwFdWtbJpSv/XWuIBV0ELOMI/5O7rJhNtE=; Path=/; Domain=guest.uber.com; Expires=Sun, 27 Mar 2022 11:28:36 GMT; HttpOnly; Secure
+< Set-Cookie: csid=deleted; Path=/; Domain=guest.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=guest.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Vary: Accept-Encoding
+< Server: ufe
+

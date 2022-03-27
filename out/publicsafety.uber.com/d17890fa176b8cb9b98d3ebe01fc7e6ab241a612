@@ -1,0 +1,15 @@
+http://publicsafety.uber.com/
+
+> GET / HTTP/1.1
+> Host: publicsafety.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Cache-Control: no-cache,must-revalidate,max-age=0,no-store,private
+< Content-Security-Policy: upgrade-insecure-requests
+< Location: https://publicsafety.uber.com/
+< Date: Sun, 27 Mar 2022 11:13:41 GMT
+< Set-Cookie: CookieConsentPolicy=0:1; path=/; expires=Mon, 27-Mar-2023 11:13:41 GMT; Max-Age=31536000
+< Set-Cookie: LSKey-c$CookieConsentPolicy=0:1; path=/; expires=Mon, 27-Mar-2023 11:13:41 GMT; Max-Age=31536000
+< Expires: Thu, 01 Jan 1970 00:00:00 GMT
+

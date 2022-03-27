@@ -1,0 +1,23 @@
+https://bliss-events.uber.com/
+
+> GET / HTTP/1.1
+> Host: bliss-events.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 200 OK
+< Date: Sun, 27 Mar 2022 11:13:34 GMT
+< Content-Length: 2
+< Cache-Control: max-age=0
+< Etag: W/"2-eoX0dku9ba8cNUXvu/DyeabcC+s"
+< X-Csrf-Token: 1648379614-01-Ofud54lB-41ww5WSDlhGMLCUP-0w2KkW98LjKzQ71Ig
+< X-Xss-Protection: 1; mode=block
+< X-Envoy-Upstream-Service-Time: 9
+< Server: ufe
+< Content-Type: text/plain; charset=utf-8
+< Set-Cookie: web-hbo-events:sess=0ySU4LhqDRC5a5lhJq0xgA.kSv6OtyaXc5m3Ah_fZMDmQ843ho_3qwT_BZ2roS-OQVBsbjmE5MDnXkK4Iqlq-YIKmL2Xr7JfJ7mIGu8zWJKTvWwy6aW9v9nTY37kLvNchUKvmM_c3rX0dmNckbsDxm9yGw8YyuOWZ7JXWajvpoYNBB-uBJAAR0f-KJQwRBNs8jF26CEwlHI7m9xnK-TcZYdrlzikTTaHdg7g5jvrWJaug.1648379614328.1209600000.8eW5skq76HOV9WjBKWSZtPye6RAycOWznidk4xzkHGU; path=/; expires=Sun, 10 Apr 2022 11:13:35 GMT; secure; httponly
+< Strict-Transport-Security: max-age=604800
+< X-Frame-Options: SAMEORIGIN
+< X-Uber-Edge: e4-dca1:w:23
+< X-Content-Type-Options: nosniff
+
+ok

@@ -1,0 +1,32 @@
+https://pharma.uber.com/
+
+> GET / HTTP/1.1
+> Host: pharma.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Location: https://auth.uber.com/login/?breeze_local_zone=dca11&next_url=https%3A%2F%2Fpharma.uber.com%2F&state=dTYbWAwEqUJpLdYlhytmiXBPef44oq4fSy9CgP43yzA%3D
+< Cache-Control: max-age=0
+< X-Content-Type-Options: nosniff
+< X-Xss-Protection: 1; mode=block
+< Date: Sun, 27 Mar 2022 11:13:38 GMT
+< X-Uber-Edge: e4-dca4:w:33
+< Strict-Transport-Security: max-age=604800
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Content-Type: text/html
+< Vary: Accept-Encoding
+< Via: 1.1 google
+< Server: ufe
+< Set-Cookie: csid=deleted; Path=/; Domain=pharma.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: fsid=deleted; Path=/; Domain=pharma.uber.com; Expires=Thu, 01 Jan 1970 00:00:01 GMT; Max-Age=0
+< Set-Cookie: state=JF0333C63bI0EH.1648380518297.HrYBK4ByvC3yzzvBoD3QWRPTzisNqMZeyodJDEYHVD4=; Path=/; Domain=pharma.uber.com; Expires=Sun, 27 Mar 2022 11:28:38 GMT; HttpOnly; Secure
+< X-Frame-Options: SAMEORIGIN
+< X-Envoy-Upstream-Service-Time: 132
+
+<html>
+<head><title>302 Found</title></head>
+<body>
+<center><h1>302 Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

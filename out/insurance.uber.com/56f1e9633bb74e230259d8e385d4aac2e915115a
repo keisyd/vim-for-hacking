@@ -1,0 +1,26 @@
+https://insurance.uber.com/
+
+> GET / HTTP/1.1
+> Host: insurance.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 404 Not Found
+< Cache-Control: max-age=0
+< X-Envoy-Upstream-Service-Time: 781
+< X-Content-Type-Options: nosniff
+< X-Frame-Options: SAMEORIGIN
+< Server: ufe
+< Vary: Accept-Encoding
+< X-Uber-Edge: e4-phx2:w:42
+< Strict-Transport-Security: max-age=604800
+< Date: Sun, 27 Mar 2022 11:13:26 GMT
+< X-Xss-Protection: 1; mode=block
+< Content-Type: text/html
+
+<html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

@@ -1,0 +1,25 @@
+https://www.uber.com/
+
+> GET / HTTP/1.1
+> Host: www.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 406 Not Acceptable
+< Via: 1.1 google
+< Date: Sun, 27 Mar 2022 11:13:35 GMT
+< Set-Cookie: _ua={"session_id":"7214acc4-496e-422e-9a9f-44f0c96e3220","session_time_ms":1648379615880}; path=/; secure
+< Set-Cookie: marketing_vistor_id=81c1d567-0561-4c9d-8759-109258407e0e; path=/; expires=Mon, 27 Mar 2023 11:13:35 GMT; domain=.uber.com; secure
+< Set-Cookie: jwt-session=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDgzNzk2MTUsImV4cCI6MTY0ODQ2NjAxNX0.G9k1oBSfvHfiGHReJQ25ruT9--HdbwS-3klhOt809SU; path=/; expires=Mon, 28 Mar 2022 11:13:35 GMT; secure; httponly
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: max-age=0
+< X-Envoy-Upstream-Service-Time: 132
+< Content-Length: 14
+< Server: ufe
+< Content-Type: text/plain; charset=utf-8
+< X-Uber-Edge: e4-dca11:w:85
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=604800
+< X-Content-Type-Options: nosniff
+
+Not Acceptable

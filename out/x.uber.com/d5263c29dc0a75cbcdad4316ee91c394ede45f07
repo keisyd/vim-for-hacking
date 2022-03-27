@@ -1,0 +1,27 @@
+https://x.uber.com/
+
+> GET / HTTP/1.1
+> Host: x.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 301 Moved Permanently
+< Strict-Transport-Security: max-age=604800
+< X-Content-Type-Options: nosniff
+< Date: Sun, 27 Mar 2022 11:13:36 GMT
+< Content-Type: text/html
+< Vary: Accept-Encoding
+< Location: https://limebike.app.link/
+< X-Uber-Edge: e4-dca1:w:34
+< X-Xss-Protection: 1; mode=block
+< X-Frame-Options: SAMEORIGIN
+< Cache-Control: max-age=0
+< X-Envoy-Upstream-Service-Time: 0
+< Server: ufe
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>

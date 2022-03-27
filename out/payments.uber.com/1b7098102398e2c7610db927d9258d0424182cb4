@@ -1,0 +1,29 @@
+https://payments.uber.com/
+
+> GET / HTTP/1.1
+> Host: payments.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< X-Envoy-Upstream-Service-Time: 778
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Date: Sun, 27 Mar 2022 11:13:34 GMT
+< Content-Security-Policy: block-all-mixed-content; frame-src 'self' staticxx.facebook.com assets.braintreegateway.com *.paypal.com xlb.uber.com pay.google.com; worker-src 'self'; child-src 'self'; connect-src 'self' auth.uber.com cdn-net.com api.cdn-net.com cdn-path.com api.cdn-path.com api.braintreegateway.com client-analytics.braintreegateway.com *.braintree-api.com *.paypal.com https://api-js.mixpanel.com; manifest-src 'self'; form-action 'self' cdn-net.com cdn-path.com; frame-ancestors 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://d1a3f4spazzrp4.cloudfront.net https://d3i4yxtzktqr9n.cloudfront.net https://tb-static.uber.com https://tbs-static.uber.com 'nonce-11d33569-cd92-4d41-9b09-c04101c77269' www.cdn-net.com six.cdn-net.com www.cdn-path.com six.cdn-path.com graph.facebook.com connect.facebook.net js.braintreegateway.com assets.braintreegateway.com www.paypalobjects.com *.paypal.com pay.google.com https://www.google-analytics.com https://ssl.google-analytics.com maps.googleapis.com maps.google.com; style-src 'self' 'unsafe-inline' https://d1a3f4spazzrp4.cloudfront.net https://d3i4yxtzktqr9n.cloudfront.net https://tb-static.uber.com https://tbs-static.uber.com fonts.googleapis.com; base-uri 'self'; report-uri https://csp.uber.com/csp?a=web-payments-experience&ro=false
+< Set-Cookie: _ua={"session_id":"5ab31e9c-7392-43bf-8aaa-3688e313c1ce","session_time_ms":1648379614329}; path=/; secure
+< Set-Cookie: udi-id=6A1Bl5frwgq8tXPWAbRW3Ns5jY9yC2AEdBaFWXIAz/xu0n2DMFSHcce/mVVXVyj4FVAx17YjEXLJKQKXeNo+Vp0enBcNCMKihAJCnbtPFLadfSmD6VKifxdY9oNIkCqbO0yGN14PyQ8swfNA31jAQvb8bXiDAAFxRb4XoDsQ5VVSY/NXBVPBlTjxwfqaLrfADvR6Vmj+iuPiWf4WXNvfvg==NrzQ/2xqvs0LPw8+R+KhgQ==Eigvc6FCUxIWzZoFi5Ufbeai5NI57haXJ4mmDKvVsyA=; path=/; expires=Wed, 24 Mar 2032 11:13:34 GMT; httponly
+< Set-Cookie: jwt-session=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDgzNzk2MTQsImV4cCI6MTY0ODQ2NjAxNH0.lJ-gH24sru9_zlwpPCo3k6WR-LB5JHginqR0aUHXwhw; path=/; expires=Mon, 28 Mar 2022 11:13:34 GMT; secure; httponly
+< X-Xss-Protection: 1; mode=block
+< Strict-Transport-Security: max-age=604800
+< Content-Type: text/html; charset=utf-8
+< Location: /not-found
+< X-Content-Security-Policy: block-all-mixed-content; frame-src 'self' staticxx.facebook.com assets.braintreegateway.com *.paypal.com xlb.uber.com pay.google.com; worker-src 'self'; child-src 'self'; connect-src 'self' auth.uber.com cdn-net.com api.cdn-net.com cdn-path.com api.cdn-path.com api.braintreegateway.com client-analytics.braintreegateway.com *.braintree-api.com *.paypal.com https://api-js.mixpanel.com; manifest-src 'self'; form-action 'self' cdn-net.com cdn-path.com; frame-ancestors 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://d1a3f4spazzrp4.cloudfront.net https://d3i4yxtzktqr9n.cloudfront.net https://tb-static.uber.com https://tbs-static.uber.com 'nonce-11d33569-cd92-4d41-9b09-c04101c77269' www.cdn-net.com six.cdn-net.com www.cdn-path.com six.cdn-path.com graph.facebook.com connect.facebook.net js.braintreegateway.com assets.braintreegateway.com www.paypalobjects.com *.paypal.com pay.google.com https://www.google-analytics.com https://ssl.google-analytics.com maps.googleapis.com maps.google.com; style-src 'self' 'unsafe-inline' https://d1a3f4spazzrp4.cloudfront.net https://d3i4yxtzktqr9n.cloudfront.net https://tb-static.uber.com https://tbs-static.uber.com fonts.googleapis.com; base-uri 'self'; report-uri https://csp.uber.com/csp?a=web-payments-experience&ro=false
+< X-Frame-Options: SAMEORIGIN
+< X-Content-Type-Options: nosniff
+< Cache-Control: max-age=0
+< Server: ufe
+< Via: 1.1 google
+< Content-Length: 51
+< X-Webkit-Csp: block-all-mixed-content; frame-src 'self' staticxx.facebook.com assets.braintreegateway.com *.paypal.com xlb.uber.com pay.google.com; worker-src 'self'; child-src 'self'; connect-src 'self' auth.uber.com cdn-net.com api.cdn-net.com cdn-path.com api.cdn-path.com api.braintreegateway.com client-analytics.braintreegateway.com *.braintree-api.com *.paypal.com https://api-js.mixpanel.com; manifest-src 'self'; form-action 'self' cdn-net.com cdn-path.com; frame-ancestors 'self'; object-src 'none'; script-src 'self' 'unsafe-inline' https://d1a3f4spazzrp4.cloudfront.net https://d3i4yxtzktqr9n.cloudfront.net https://tb-static.uber.com https://tbs-static.uber.com 'nonce-11d33569-cd92-4d41-9b09-c04101c77269' www.cdn-net.com six.cdn-net.com www.cdn-path.com six.cdn-path.com graph.facebook.com connect.facebook.net js.braintreegateway.com assets.braintreegateway.com www.paypalobjects.com *.paypal.com pay.google.com https://www.google-analytics.com https://ssl.google-analytics.com maps.googleapis.com maps.google.com; style-src 'self' 'unsafe-inline' https://d1a3f4spazzrp4.cloudfront.net https://d3i4yxtzktqr9n.cloudfront.net https://tb-static.uber.com https://tbs-static.uber.com fonts.googleapis.com; base-uri 'self'; report-uri https://csp.uber.com/csp?a=web-payments-experience&ro=false
+< X-Uber-Edge: e4-dca8:w:37
+
+Redirecting to <a href="/not-found">/not-found</a>.

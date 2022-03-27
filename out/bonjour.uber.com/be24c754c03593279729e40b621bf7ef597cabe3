@@ -1,0 +1,30 @@
+https://bonjour.uber.com/
+
+> GET / HTTP/1.1
+> Host: bonjour.uber.com
+> User-Agent: Mozilla/5.0 (compatible; meg/0.2; +https://github.com/tomnomnom/meg)
+
+< HTTP/1.1 302 Found
+< Content-Type: text/html; charset=utf-8
+< X-Envoy-Upstream-Service-Time: 1106
+< Vary: Accept-Encoding
+< X-Uber-Edge: e4-dca4:w:17
+< Cache-Control: max-age=0
+< Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+< Set-Cookie: _ua={"session_id":"395ba3a7-3c11-4ca4-a7d6-e7d6e9c84db6","session_time_ms":1648379612419}; path=/; secure
+< Set-Cookie: bonjour_locale_negotiation_context={"userSelectedLocale":null}; path=/; expires=Sun, 27 Mar 2022 11:23:32 GMT; secure; httponly
+< Set-Cookie: marketing_vistor_id=7475db58-6b30-4a47-af1b-e0f1f71a9a5f; path=/; expires=Mon, 27 Mar 2023 11:13:32 GMT; domain=.uber.com; secure
+< Set-Cookie: jwt-session=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDgzNzk2MTIsImV4cCI6MTY0ODQ2NjAxMn0.LIJNY-gFXPipf8hiCZJz2Urbk56RPCU-9HjKEcKiIsg; path=/; expires=Mon, 28 Mar 2022 11:13:32 GMT; secure; httponly
+< X-Frame-Options: SAMEORIGIN
+< X-Webkit-Csp: block-all-mixed-content; object-src 'none'; script-src 'nonce-4516033a-a8cc-412a-af3d-62e639500ef1' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:; report-uri https://csp.uber.com/csp?a=bonjour&ro=false
+< Location: https://auth.uber.com/login?next_url=https%3A%2F%2Fbonjour.uber.com%2F
+< X-Xss-Protection: 1; mode=block
+< Server: ufe
+< Strict-Transport-Security: max-age=604800
+< X-Content-Type-Options: nosniff
+< Via: 1.1 google
+< Date: Sun, 27 Mar 2022 11:13:32 GMT
+< Content-Security-Policy: block-all-mixed-content; object-src 'none'; script-src 'nonce-4516033a-a8cc-412a-af3d-62e639500ef1' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:; report-uri https://csp.uber.com/csp?a=bonjour&ro=false
+< X-Content-Security-Policy: block-all-mixed-content; object-src 'none'; script-src 'nonce-4516033a-a8cc-412a-af3d-62e639500ef1' 'unsafe-inline' 'unsafe-eval' 'strict-dynamic' https: http:; report-uri https://csp.uber.com/csp?a=bonjour&ro=false
+
+Redirecting to <a href="https://auth.uber.com/login?next_url=https%3A%2F%2Fbonjour.uber.com%2F">https://auth.uber.com/login?next_url=https%3A%2F%2Fbonjour.uber.com%2F</a>.
