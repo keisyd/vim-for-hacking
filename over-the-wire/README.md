@@ -125,3 +125,66 @@ Here using
 And then issuing the toke. All done.
 
 ### 16 - cluFn7wTiGryunymYOu4RcffSxQluehd
+
+> nmap localhost -p31000-32000
+
+> openssl s_client --connect localhost:31790
+
+### 17 -
+
+It's a key from a port scanned that u use to connect after chmod 400 on the private key with
+
+ssh -i <pkey>
+
+### 18 - kfBf3eYk5BPBRzwjqutbbfE887SVc5Yd
+
+> ssh bandit18@bandit.labs.overthewire.org -p 2220 "cat readme"
+
+### 19 - IueksS7Ubh8G3DCwVzrTd8rAVOwq3M5x
+
+> ./bandit20-do cat etc/bandit_pass/bandit20
+
+### 20 - GbKksEFF4yrVs6il55v6gwY5aVje5f0j
+
+Create a server with the echo
+
+> echo GbKksEFF4yrVs6il55v6gwY5aVje5f0j | nc -l localhost -p 3330 &
+
+Then, hit ctrl+z
+
+> ./suconnect 30000 &
+
+### 21 - gE269g2h3mw3pwgrj0Ha9Uoqen1c9DGr
+
+### 22 - Yk7owGAcWjwMVRwrTesJEwB7WVOiILLI
+
+>
+
+### 24 - UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ
+
+> for i in {0000..9999}; do echo "UoMYTrfrBFHyQXmg6gzctqAwOmw1IohZ $i"; done > every.txt
+
+> nc localhost 30002 < every.txt
+
+### 25 - uNG9O58gUE7snukf3bvZ0rxhtnjzSGzG
+
+> 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+
+> :set shell=/bin/bash
+> :shell
+
+### 26 - 5czgV9L3Xx8JPOyRbXh6lQbmIOWvPT6Z
+
+### 27 - 3ba3118a22e93127a4ed485be72ef5ea
+
+### 28 - 0ef186ac70e04ea33b4c1853d2526fa2
+
+### 29 - bbc96594b4e001778eee9975372716b2
+
+### 30 - 5b90576bedb2cc04c86a9e924ce42faf
+
+### 31 - 47e603bb428404d265f59c42920d81e5
+
+### 32 - 56a9bf19c63d650ce78e6ec0354ee45e
+
+### 33 - c9c3199ddf4121b10cf581a98d51caee
